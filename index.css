@@ -1,0 +1,56 @@
+body{
+    font-family: 'roboto', sans-serif;
+    margin: 0px;
+    background-color: #84CAE7;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    overflow: hidden;
+    background-color: #84CAE7;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    box-shadow: 1px 1px 5px 1px #6ba3bb;
+}
+
+nav p{
+    margin-left:1em;
+    font-weight: 400;
+    font-size: 16px;
+}
+nav a{
+    color:black;
+}
+
+intro{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+
+#picOfMe{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#aboutMe{
+    background-color: #0e8cc2;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 30px;
+}
+#aboutMe p{
+    max-width: 30%;
+}
+
+
